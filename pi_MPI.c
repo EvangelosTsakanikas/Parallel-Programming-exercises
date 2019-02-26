@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 	
 	if (myid == 0)
 	{
-		printf("Dwse to megethos tou diasthmatos : \n");
+		printf("Give the size of the interval : \n");
 		scanf("%d", &N);
 		
 		start = MPI_Wtime();
